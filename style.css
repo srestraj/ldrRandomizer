@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+  font-family: 'Bebas Neue', 'sans-serif';
+  letter-spacing: 4px;
+}
 body {
   background: #000;
-  font-family: 'Bebas Neue',
-  cursive;
-  letter-spacing: 4px;
 }
 .main {
   max-height: 100vh;
@@ -20,10 +21,11 @@ body {
   border: 1px solid #fff;
   padding: 5px 15px;
   position: absolute;
-  bottom: 0;
+  bottom: 15px;
   right: 15px;
   cursor: pointer;
   font-size: 1.4rem;
+  background: transparent;
   transition: all .3s ease-in-out
 }
 
